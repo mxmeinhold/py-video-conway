@@ -1,0 +1,4 @@
+mypy
+pylint
+pylint_fixme_info
+pylint_quotes
