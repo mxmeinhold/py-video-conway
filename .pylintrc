@@ -1,6 +1,7 @@
 [MASTER]
 persistent = yes
 load-plugins = pylint_quotes,pylint_fixme_info
+extension-pkg-whitelist=cv2
 
 [MESSAGES CONTROL]
 disable = fixme

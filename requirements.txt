@@ -1,4 +1,6 @@
 mypy
+numpy
+opencv-python
 pylint
 pylint_fixme_info
 pylint_quotes
