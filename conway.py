@@ -4,6 +4,7 @@ from copy import deepcopy
 import random
 from typing import Any, Literal
 import itertools
+from functools import cache
 
 Option = Literal[0, 1]
 
@@ -64,6 +65,8 @@ class Conway:
 
         return self.grid[row][col]
 
+
+    @cache
     def neighbors(self, row: int, col: int) -> set[tuple[int, int]]:
         """ Get all the valid 8 connected neighbor coords as (r, c) """
         return set(
